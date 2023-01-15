@@ -1,0 +1,127 @@
+:root{
+    --dark-blue: #00235A;
+    --red: #C8242F;
+}
+.user{
+    height: 90vh;
+    display: flex;
+    
+}
+.user .left-side{
+    width: 25%;
+    background-image: url(../images//user-page.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+    height: 100%;
+    background-color: var(--dark-blue);
+}
+.user .right-side{
+    width: 75%;
+    height: 100%;
+    background-color: #23394a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user .right-side .content{
+    width: 450px;
+    color: white;
+}
+.content h2{
+    font-size: 25px;
+}
+.button-group{
+    display: flex;
+}
+.button-group a{
+    color: white;
+    padding: 6px 0px;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 15px 0px;
+    border-bottom: 3px solid rgb(190, 190, 190);
+}
+
+.button-group .butn-login{
+margin-right: 30px;
+}
+.button-group a:hover{
+    border-bottom: 2px solid cyan;
+    color: white;
+}
+.button-group a.active{
+    color: white;
+    border-bottom: 3px solid cyan;
+}
+.login-btn .active{
+    color: #C8242F;
+}
+
+
+
+/* login form  */
+.login{
+    margin-top: 20px;
+}
+.user .login input{
+    width: 100%;
+    margin-bottom: 18px;
+    background-color: #455c6d;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    border: none;
+}
+.user .login input::placeholder{
+    color: rgb(196, 196, 196);
+}
+.user .login input:focus{
+    background-color: #455c6d;
+    border: none;
+    outline: cyan;
+    color: cyan;
+}
+.btn-login{
+    background-color: white;
+    border: none;
+    padding: 6px 17px;
+    font-size: 16px;
+    color: var(--dark-blue);
+    border-radius: 10px;
+}
+.btn-login:hover{
+    box-shadow: 0px 0px 5px 0px rgb(161, 161, 161);
+}
+.btn-forget{
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin-left: 15px;
+}
+.btn-forget:hover{
+    border-bottom: 1px solid cyan;
+}
+
+.login-google{
+    border: none;
+    background-color: #00235A;
+    color: white;
+    padding: 6px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  
+    .user .left-side{
+        display: none;
+    }
+    .user .right-side{
+        width: 100%;
+        height: 100vh;
+        background-color: #23394a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+  }

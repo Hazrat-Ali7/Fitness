@@ -1,0 +1,17 @@
+.check{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check-form{
+    height: 75vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.check-form form{
+    width: 100%;
+}

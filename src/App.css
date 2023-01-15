@@ -1,0 +1,15 @@
+.loading-spinner{
+    width: 100px !important;
+    height: 100px !important;
+    display: flex;
+    justify-content: center;
+}
+.spinner-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+}

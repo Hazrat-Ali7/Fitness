@@ -1,0 +1,141 @@
+:root{
+    --dark-blue: #001940;
+    --dark-blue-2: #00122F;
+    --red: #C8242F;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  header{
+    width: 100%;
+    height: 80vh;
+  }
+  .slider-1{
+    background-image: url('../images//slider1.jpg');
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .slider-2{
+    background-image: url('../images//slider2.jpg');
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .slider-3{
+    background-image: url('../images//slider3.jpg');
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+  .slider{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .slider h1{
+    font-size: 75px;
+    font-weight: 700;
+    color: cyan;
+  }
+
+  .service h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 60px;
+  }
+
+.service-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin-top: 50px;
+}
+
+  .service-card{
+    width: 100%;
+    
+    
+  }
+  .service-card img{
+    width: 100%;
+    height: 400px;
+  }
+  .service-card h2{
+    font-size: 30px;
+    color: var(--dark-blue);
+    margin-top: 10px;
+  }
+  .service-card a{
+    text-decoration: none;
+    border: none;
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+  }
+  .service-card a:hover{
+    color: cyan;
+  }
+  .service-card-desc{
+    display: flex;
+    justify-content: space-between;
+  }
+  .service-card-desc span{
+    display: flex;
+    align-items: center;
+  }
+
+  .error{
+   
+    margin-top: 20px;
+    color: #f85a65;
+    padding: 10px 10px;
+  }
+  @media only screen and (max-width: 600px) {
+    .service-container{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 2rem;
+      margin-top: 50px;
+    }
+    
+  }

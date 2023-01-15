@@ -1,0 +1,28 @@
+/* Vanila CSS */
+.about-page{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr); 
+
+}
+.about-right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-right-side h5{
+    font-size: 20px;
+    color: rgb(3, 13, 68);
+    font-weight: 500;
+}
+.about-right-side h1{
+    margin-top: 10px;
+    font-size: 70px;
+}
+.about-right-side p{
+    line-height: 25px;
+    font-size: 16px;
+    color: rgb(68, 68, 68);
+}
+.btn{
+    width: 150px;
+}
