@@ -12,12 +12,10 @@ const About = () => {
         <h1>About Us</h1>
 
         <p>
-        About My Goal
-  I'm Hazrat .I study in Bcs in CSE . I want to be a Software Engineer. Now I want to be MERN Stack Developer. I love tech field so that I love to do this work. So my next shortterm goal is to be a Developer or MERN stack.And my leargest goal is To Be a Software Engineer.
-  <br/>
-  How to Archive my Goal
- A common goal for engineers is learning a new skill.So, I'm focusing to gain new skill.Skills can be gain by day-by-day practice. So I should practice more and more.I have to dedicated about my goals.
-
+        Hello I'm Hazrat Ali.I am currently pursuing BSC in CSE. I want to be a Software Engineer in near future.
+Now I am currently a MERN Stack Stack and I have passion in web technologies. I am a fast learner and I am confident about myself.
+I believe I can face chanllenges of this always changing tech industry.I am looking forward to face the upcoming challenges.Talking about my hobby I love to read
+books related to programming and I love to develop things  with programming languages.Thanks for visiting my profile
         </p>
         <button className="btn btn-primary">Learn More</button>
       </div>
