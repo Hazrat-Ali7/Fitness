@@ -9,7 +9,7 @@ const Footer = () => {
         <>
            
             <div className='copyright'>
-                <p>Copyright © 2022. All right reserved</p>
+                <p>Copyright @ 2023-All Right Reserved By Hazrat Ali</p>
                 
             </div>
         </>
