@@ -2,7 +2,7 @@
 
  Project Name : Fitness Website
 
- you can check out the live site link from:  https://hazrat-fitness.netlify.app/home
+ you can check out the live site link from: https://hazrat-ali-fitness.netlify.app/home
 
 # Fitness Anylisis React App:
 
