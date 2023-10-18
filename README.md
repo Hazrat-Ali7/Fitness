@@ -1,6 +1,6 @@
  # Fitness 
 
- Project Name : Fitness Website
+ Project Name : Fitness
 
  you can check out the live site link from: https://hazrat-ali-fitness.netlify.app/home
 
